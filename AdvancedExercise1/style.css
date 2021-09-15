@@ -43,15 +43,16 @@
 
     .container {
 
-        margin: auto;
+        margin: 0 auto;
         width: 90vw;
         display: grid;
+        grid-template-columns: repeat(3,);
         row-gap: 1vh;
         grid-template-columns: 90vw;        
         border: 2px solid blue;
     }
 
-    .photo img {
+    .container img {
 
         max-width: 90vw;
         max-height: 100%;
